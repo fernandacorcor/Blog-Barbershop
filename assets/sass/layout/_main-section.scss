@@ -1,0 +1,29 @@
+.main {
+  margin-top: 3rem;
+}
+
+.main__article  {
+  border-top: 0.1rem solid $light-gray;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
+
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 p {
+    display: inline-flex;
+  }
+  a {
+    color: $fuzzy-wuzzy;
+    font-family: $roboto;
+    font-size: $x-large;
+    font-weight: $extra-light;
+  }
+  img {
+    border-radius: 50%;
+  }
+
+}
